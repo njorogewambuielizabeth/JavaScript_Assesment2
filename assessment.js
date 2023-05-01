@@ -58,4 +58,12 @@ function checkoutBook(bookTitle) {
     return `The book "${bookTitle}" is successfully checked out`;
 }
 console.log(checkoutBook( 'Great Expectations'));
-  
+ 
+// 5. Create a function returnBook that takes a book title as an argument and changes the
+// book's isAvailable property to true. If the book is not found in the library, the function
+// should return a message indicating that the book does not belong to the library.
+function returnBook(title,library) {
+    for(books in library);
+    if books["title"] ==title;
+}
+
